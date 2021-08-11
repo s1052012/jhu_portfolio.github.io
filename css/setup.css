@@ -1,0 +1,42 @@
+#example
+		{
+			width: 100%;
+    		height: 350px;
+		}
+		.lSSlideOuter .lSPager.lSGallery li 
+		{
+		    overflow: hidden;
+		    -webkit-transition: border-radius 0.12s linear 0s 0.35s linear 0s;
+		    transition: border-radius 0.12s linear 0s 0.35s linear 0s;
+		}
+		.lSSlideOuter .lSPager.lSpg
+		{
+			display: none;
+		}
+		.lightSlider 
+		{
+		    margin: 100px;
+		}
+		.lSAction > .lSPrev 
+		{
+		    left: 610px;
+		    display: none;
+		}
+		.lSAction > .lSNext 
+		{
+		    right: 560px;
+		    display: none;
+		}
+		.lSAction > a 
+		{
+			top: 50%;
+		}
+		p
+		{
+			position: absolute;
+			font-size: 25px;
+			margin-top: 150px;
+			width: 70%;
+			text-align: right;
+			background-color: rgb(50,100,122);
+		}
